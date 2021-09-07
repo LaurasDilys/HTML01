@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+label {
+    display: inline-block;
+    padding: 1px 0;
+}
+
+input:not([type="radio"]) {
+    border: 1px solid lightgray;
+    width: 150px;
+}
+
+textarea {
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: white; 
+    color: black; 
+    border: 1px solid lightgray;
+    border-radius: 10%;
+}
+
+button:hover {
+    background: #fafafa;
+}
+
+/* .projects a {
+    text-decoration: none;
+}
+
+.projects p {
+    text-decoration: underline;
+} */
